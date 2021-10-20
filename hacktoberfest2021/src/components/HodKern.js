@@ -15,7 +15,7 @@ export default class HodKern extends Component {
                 <CardWidth className="card border-dark mb-3">
                     <div className="row g-0">
                         
-                            <HodKernImg src="img/HodKern.png" />
+                            <HodKernImg src="img/HodKern.jpg" />
                             <div className="col-md-8">
                                 <div className="card-body">
                                     <h5 className="card-title">HodKern</h5>
