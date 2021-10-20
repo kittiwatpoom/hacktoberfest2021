@@ -5,6 +5,7 @@ import Cat from './components/Cat';
 import Dog from './components/Dog';
 import Fish from './components/Fish';
 import Rabbit from './components/Rabbit';
+import HodKern from './components/HodKern';
 import styled from "styled-components"
 
 const Div = styled.div`
@@ -55,6 +56,9 @@ function App() {
         <div className="row justify-content-center">
             <div className="col-lg-5 col-sm-12 col-md-5">
               <Rabbit />
+            </div>
+            <div className="col-lg-5 col-sm-12 col-md-5">
+              <HodKern />
             </div>
         </div>
       </Div>
