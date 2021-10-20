@@ -6,7 +6,8 @@ import Dog from "./components/Dog";
 import Fish from "./components/Fish";
 import Rabbit from "./components/Rabbit";
 import Parrot from "./components/Parrot";
-import styled from "styled-components";
+import HodKern from './components/HodKern';
+import styled from "styled-components"
 
 const Div = styled.div`
   padding-top: 30px;
@@ -70,12 +71,15 @@ function App() {
           </div>
         </div>
         <div className="row justify-content-center">
-          <div className="col-lg-5 col-sm-12 col-md-5">
-            <Rabbit />
-          </div>
           <div className="col-lg-5 offset-lg-1 col-sm-12 col-md-5">
             <Parrot />
           </div>
+            <div className="col-lg-5 col-sm-12 col-md-5">
+              <Rabbit />
+            </div>
+            <div className="col-lg-5 col-sm-12 col-md-5">
+              <HodKern />
+            </div>
         </div>
       </Div>
     </div>
